@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header-container{
+  background-color: bisque;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.header-container li{
+ padding: 15px;
+}
+
+.signiture-container{
+  height: 100vh;
+  background: #b2b2b2;
+  background: linear-gradient(#eeecec, white);
+}
+.signiture{
+  position: relative;
+  animation-name: slideSign;
+  animation-duration: 4s;
+}
+
+@keyframes slideSign {
+  0%   {top:0px}
+  25%  {top:20%}
+  50%  {top:30%}
+  75%  {top:50%}
+  100% {top:40%;}
+}
