@@ -5,6 +5,7 @@ function Signiture() {
     <>
     <div className='signiture-container'> 
     <div className='signiture'>Brigitta Nagy</div>
+    <div className='full-stack'>Full stack developer</div>
 
     </div>
     </>
