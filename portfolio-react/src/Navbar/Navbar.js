@@ -4,8 +4,9 @@ import Navigation from "./Navigation"
 const Navbar = () => {
   return (
     <div className="Navbar">
-       <HamburgerMenu />
+       
        <Navigation />
+       <HamburgerMenu />
     </div>
   )
 }

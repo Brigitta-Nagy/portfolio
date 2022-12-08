@@ -3,26 +3,26 @@ import NavLinks from './NavLinks'
 import {RiMenu5Line} from "react-icons/ri"
 import {RiCloseLine} from "react-icons/ri"
 import { useState } from 'react'
-
+import styles from './Navbar.module.css'
 
 
 
 function HamburgerMenu() {
 
   const[open, setOpen]= useState(false); 
-  const hamburgerIcon =  <RiMenu5Line className='hamburger'
+  const hamburgerIcon =  <RiMenu5Line className={styles.hamburger}
                          onClick={()=> setOpen(!open)}/>
 
-  const closeIcon =  <RiCloseLine className='hamburger'
+  const closeIcon =  <RiCloseLine className={styles.hamburger}
   onClick={()=> setOpen(!open)}/>                     
 
   const closeMobileMenu = ()=> setOpen(false); 
 
 
-  return (
+  return ( 
     <>
-    <div className='header-container hamburgerMenu'>
-    <div>HamburgerMenu</div>
+    <div className={`${styles.hamburgerMenu} ${styles.headerContainer}`}>
+    <h1 className={styles.logo}>Brigitta Nagy</h1>
     {open? closeIcon : hamburgerIcon}
     {open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu}/>}
     </div>
