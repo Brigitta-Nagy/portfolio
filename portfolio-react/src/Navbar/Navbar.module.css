@@ -93,6 +93,8 @@
     right: 5%; 
     cursor: pointer;
     color: whitesmoke;
+    width: 50px;
+    height: 40px;
   }
   ul{
     display: flex;
