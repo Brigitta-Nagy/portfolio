@@ -1,48 +1,94 @@
 import React from 'react'
 import styles from './Skills.module.css'
-import html_logo from '../../static/html_logo.png'
-import css_logo from '../../static/css_logo.png'
-import js_logo from '../../static/js_logo.png'
-import bootstrap_logo from '../../static/bootstrap_logo.png'
-import jquery_logo from '../../static/jquery_logo.png'
-import mongodb_logo from '../../static/mongodb_logo.png'
-import nodeJs_logo from '../../static/nodeJs_logo.png'
-import react_logo from '../../static/react_logo.png'
+import { motion} from 'framer-motion'
+
+import Javascript_logo from '../../static/Javascript01.png'
+import CSS from '../../static/CSS.png'
+import React_logo from '../../static/React_logo.png'
+import HTML from '../../static/HTML.png'
+import NodeJs from '../../static/NodeJs.png'
+import JQuery_logo from '../../static/Jquery01.png'
+import Bootstrap_logo from '../../static/Bootstrap01.png'
+import Sass_logo from '../../static/Sass01.png'
+import Express_logo from '../../static/Express01.png'
+import Mongodb_logo from '../../static/Mongodb01.png'
+
+
+
+
+
+
 function Skills() {
   return (
     <>
-      <div>
+      <section className={styles.container}>
         <h1 id={styles.skills}> Skills</h1>
+        <h2> My aim: - every day learning something new to become a better developer</h2>
+        <h3>These skills what I already used to one of my projects</h3>
       
-        <div className={styles.logo_container}>
-           
-              <div className={styles.frontend_logo_container}>
-              <p> &lt; Frontend /&gt; </p>
-                <div className={styles.frontend_first_row}>
-                  <div ><img height={50} src={html_logo} alt="" />
-                    <p className={styles.logo_subtitles}>HTML</p>
-                  </div>
-                  <div ><img height={50} src={css_logo} alt="" />
-                    <p className={styles.logo_subtitles}>CSS</p>
-                  </div>
-                  <div ><img height={50} src={js_logo} alt="" />
-                    <p className={styles.logo_subtitles}>JavasCript</p>
-                  </div>
-              </div>
+      
+        <div className={styles.logo_wrapper}>
+          
+              <motion.div className={styles.logo_container}
+              initial={{x:-200, opacity: 0}}
+              animate={{ x:50, opacity: 1 }}
+              transition={{duration: 3}}>
+                 <p className={styles.title}> &lt; Frontend /&gt; </p>
+                    <div className={styles.frontend_logo_container}>
+                      <div className={styles.logo}> <img  src={HTML} alt="" />
+                        <p>HTML</p>
+                      </div>
+                      <div className={styles.logo}> <img src={CSS} alt="" />
+                        <p>CSS</p>
+                      </div>
+                      <div className={styles.logo}> <img src={React_logo} alt="" />
+                        <p>React</p>
+                      </div>
+                      <div className={styles.logo}> <img  src={Javascript_logo} alt="" />
+                        <p>JavaScript</p>
+                      </div>
+                      <div className={styles.logo}> <img  src={JQuery_logo} alt="" />
+                        <p>jQuery</p>
+                      </div>
+                      <div className={styles.logo}>  <img src={Bootstrap_logo} alt="" />
+                        <p>Bootstrap</p>
+                      </div>
+                      <div className={styles.logo}> <img  src={Sass_logo} alt="" />
+                        <p>Sass</p>
+                      </div>
+                    </div>
+              </motion.div>
 
-              </div>
-            <p> &lt; Backend  /&gt; </p>
-              <div className={styles.backend_logo_container}>
+              <motion.div className={styles.logo_container}
+              initial={{x:200, opacity: 0}}
+              animate={{ x:50, opacity: 1 }}
+              transition={{duration: 3}}>
+                <p className={styles.title}> &lt; Backend  /&gt; </p>
+                  <div className={styles.backend_logo_container}>
+                    <div className={styles.logo}> <img  src={NodeJs} alt="" />
+                        <p>Node js</p>
+                      </div>
+                      <div className={styles.logo}> <img  src={Express_logo} alt="" />
+                        <p>Express</p>
+                      </div>
+                      <div className={styles.logo}> <img src={Mongodb_logo} alt="" />
+                        <p>MongoDb</p>
+                      </div>
+                  </div>
+              </motion.div>
 
-              </div>
-            <p> &lt; I'm on it now :) /&gt; </p>
+
+          
+        </div>
+        <div>
+          <h3>These skills I'm on recent project</h3>
+          <div className={styles.logo_container}>
+            
             <div className={styles.current_logo_container}>
-
             </div>
-        </div>
-
-      
-        </div>
+            </div>
+      </div>
+        </section>
     </>
   )
 }
