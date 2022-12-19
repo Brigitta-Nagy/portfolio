@@ -27,7 +27,7 @@
 .logo_container {
  
   padding: 50px 100px;
-  
+  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -46,7 +46,7 @@
 }
 .backend_logo_container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
 
@@ -56,4 +56,12 @@
 }
 .logo img {
   width: 80%;
+}
+
+.title{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
