@@ -2,7 +2,7 @@ import React from 'react'
 import NavLinks from './NavLinks'
 import {RiMenu5Line} from "react-icons/ri"
 import {RiCloseLine} from "react-icons/ri"
-import { useState } from 'react'
+import {useState} from 'react'
 import styles from './Navbar.module.css'
 
 
@@ -10,11 +10,13 @@ import styles from './Navbar.module.css'
 function HamburgerMenu() {
 
   const[open, setOpen]= useState(false); 
+  const [slide, setSlide] = useState();
+  
   const hamburgerIcon =  <RiMenu5Line className={styles.hamburger}
                          onClick={()=> setOpen(!open)}/>
 
   const closeIcon =  <RiCloseLine className={styles.hamburger}
-  onClick={()=> setOpen(!open)}/>                     
+                      onClick={()=> setOpen(!open)}/>                     
 
   const closeMobileMenu = ()=> setOpen(false); 
 

@@ -35,7 +35,7 @@
     color: whitesmoke;
     letter-spacing: -5px;
     position: absolute;
-    left: 10px;
+    left: 5%;
     font-size: 50px ;
     color: whitesmoke;
     font-family: 'Arizonia', cursive;
@@ -72,15 +72,11 @@
     display:none;
   }
   
-
   .hamburgerMenu{
     min-height: 100px;
     display: flex;
     align-items: center;
-    background-color: #5d4954;
-    color:  whitesmoke;
-    /* border: #800000 3px solid; */
-   
+  
   }
 
   .hamburger{
@@ -90,15 +86,26 @@
     color: whitesmoke;
     width: 50px;
     height: 40px;
-    /* border: #800000 3px solid; */
+   
   }
   ul{
     display: flex;
     flex-direction: column;
-    border: #800000 3px solid;
+    /* align-items: flex-end; */
+    z-index: 1;
+    line-height: 2;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    background-color: #5d4954;
+    opacity: 0.9;
+    
+  }
+  ul a{
+    margin: 20px;
   }
 } 
-@media (min-width:1024px){
+@media (min-width:990px){
   .navLinks{
     width:60%;
   }
