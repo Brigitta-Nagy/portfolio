@@ -45,7 +45,13 @@
 
 .logo{
     color: whitesmoke;
-    letter-spacing: 3px;
+    letter-spacing: -5px;
+    position: absolute;
+    left: 10px;
+    font-size: 50px ;
+    color: whitesmoke;
+    font-family: 'Arizonia', cursive;
+    text-shadow: 2px 2px 2px #800000; 
  
  }
 

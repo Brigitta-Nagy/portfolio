@@ -22,7 +22,7 @@ function HamburgerMenu() {
   return ( 
     <>
     <div className={`${styles.hamburgerMenu} ${styles.headerContainer}`}>
-    <h1 className={styles.logo}>Brigitta Nagy</h1>
+    <h1 className={styles.logo}>B N</h1>
     {open? closeIcon : hamburgerIcon}
     {open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu}/>}
     </div>

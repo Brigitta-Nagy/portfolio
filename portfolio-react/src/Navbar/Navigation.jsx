@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <>
       <div className={`${styles.navigation} ${styles.headerContainer}`}>
-        <h1 className={styles.logo}>Brigitta Nagy</h1>
+        <h1 className={styles.logo}>BN</h1>
         <NavLinks/>
         
       </div>

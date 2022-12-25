@@ -1,5 +1,5 @@
 import Navbar from './Navbar/Navbar';
-import Signiture from './components/Signiture';
+import Signature from './components/Signature/Signature';
 import './App.css';
 import Skills from './components/Skills/Skills';
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Navbar/>  
          
-      <Signiture/>
+      <Signature/>
 
       <Skills />
  
