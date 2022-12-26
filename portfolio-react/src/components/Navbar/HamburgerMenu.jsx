@@ -10,7 +10,7 @@ import styles from './Navbar.module.css'
 function HamburgerMenu() {
 
   const[open, setOpen]= useState(false); 
-  const [slide, setSlide] = useState();
+  
   
   const hamburgerIcon =  <RiMenu5Line className={styles.hamburger}
                          onClick={()=> setOpen(!open)}/>

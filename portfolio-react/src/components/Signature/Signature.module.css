@@ -12,3 +12,38 @@
   border: 10px solid pink;
   
 }
+.signature{
+  position: relative;
+  margin-top: 50px;
+  color: whitesmoke;
+  font-family: 'Arizonia', cursive;
+  font-size: 100px;
+  text-shadow: 2px 2px 2px #800000; 
+}
+
+.fullstack{
+  font-size: 60px;
+  margin: 20px;
+  animation: slide-up 4s  ease;
+  color: #800000;
+  text-shadow: 2px 2px 2px black;
+
+  
+}
+@keyframes slide-up {
+  0% {
+    transform: translateY(180px);
+    opacity: 0;
+  }
+  85% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.iconContainer{
+  border: 1px solid saddlebrown;
+ 
+}
