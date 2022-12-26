@@ -1,4 +1,4 @@
-import Navbar from './Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import Signature from './components/Signature/Signature';
 import './App.css';
 import Skills from './components/Skills/Skills';

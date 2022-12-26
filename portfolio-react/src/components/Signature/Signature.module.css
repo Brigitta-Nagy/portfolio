@@ -44,6 +44,11 @@
 }
 
 .iconContainer{
-  border: 1px solid saddlebrown;
- 
+  display: flex;
+
+}
+.iconContainer img{
+  width: 40px;
+  margin: 2px;
+  
 }

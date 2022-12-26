@@ -20,11 +20,21 @@ function Signature() {
     <>
     <div className={styles.signatureContainer}> 
     <div className={styles.signature}>Brigitta Nagy</div>
+
     <div className={styles.fullstack}>Full stack developer</div>
     <div className={styles.iconContainer}>
-
+        <img  src={React_logo} alt="" />
+        <img  src={Javascript_logo} alt="" />
+        <img  src={HTML} alt="" />
+        <img  src={CSS} alt="" />
+        <img  src={Sass_logo} alt="" />
+        <img  src={Bootstrap_logo} alt="" />
+        <img  src={Express_logo} alt="" />
+        <img  src={NodeJs} alt="" />
+        <img  src={Mongodb_logo} alt="" />
+        <img  src={JQuery_logo} alt="" />
     </div>
-
+  
     </div>
     </>
   )
