@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Skills.module.css'
-import { motion} from 'framer-motion'
+import { motion as m} from 'framer-motion'
 
 import Javascript_logo from '../../static/Javascript01.png'
 import CSS from '../../static/CSS.png'
@@ -29,7 +29,7 @@ function Skills() {
       
         <div className={styles.logo_wrapper}>
           
-              <motion.div className={styles.logo_container}
+              <m.div className={styles.logo_container}
               initial={{x:-200, opacity: 0}}
               animate={{ x:50, opacity: 1 }}
               transition={{duration: 3}}>
@@ -57,9 +57,9 @@ function Skills() {
                         <p>Sass</p>
                       </div>
                     </div>
-              </motion.div>
+              </m.div>
 
-              <motion.div className={styles.logo_container}
+              <m.div className={styles.logo_container}
               initial={{x:200, opacity: 0}}
               animate={{ x:50, opacity: 1 }}
               transition={{duration: 3}}>
@@ -75,7 +75,7 @@ function Skills() {
                         <p>MongoDb</p>
                       </div>
                   </div>
-              </motion.div>
+              </m.div>
 
 
           
