@@ -5,11 +5,14 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-image: url("../../static/background_mountain.jpg");
+  /* background-color: #cae3e6; */
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url("../../static/background_mountain.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border: 10px solid pink;
+  color: whitesmoke;
+  /* background-blend-mode: multiply; */
   
 }
 .signatureContainer{
@@ -49,9 +52,12 @@
 .iconContainer{
   display: flex;
 
+  justify-content: space-between;
+
 }
+
 .iconContainer img{
-  width: 40px;
+  width: 50px;
   margin: 2px;
   
 }

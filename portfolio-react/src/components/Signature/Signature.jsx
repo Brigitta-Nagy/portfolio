@@ -23,52 +23,53 @@ function Signature() {
     <div className={styles.signatureContainer}>
     <div className={styles.signature}>Brigitta Nagy</div>
 
-    <div className={styles.fullstack}>Full stack developer</div>
-    <div className={styles.iconContainer}>
+    <div className={styles.fullstack}>Full stack developer
+      <div className={styles.iconContainer}>
         <m.img 
-          initial={{y:-900}} 
-          animate={{y:0, rotate: 360}}
-          transition={{ ease: "easeOut", duration: 2 }}
+          initial={{opacity:0}} 
+          animate={{opacity:1}}
+          transition={{ ease: "easeOut", duration: 1, delay: 2 }}
 
           src={React_logo} alt="" />
         <m.img  
-          initial={{y:900}} 
-          animate={{y:0, rotate: 1440}}
-          transition={{ ease: "easeOut", duration: 2, delay:0.5 }}
+          initial={{opacity:0}} 
+          animate={{opacity:1}}
+          transition={{ ease: "easeOut", duration: 1, delay:3 }}
           src={Javascript_logo} alt="" />
         <m.img 
-          initial={{y:-900}} 
-          animate={{y:0, rotate: 360}}
-          transition={{ ease: "easeOut", duration: 2, delay:0.7 }} src={HTML} alt="" />
+          initial={{opacity:0}} 
+          animate={{opacity:1}}
+          transition={{ ease: "easeOut", duration: 1, delay:3.5 }} src={HTML} alt="" />
         <m.img 
-          initial={{x:-1200}} 
-          animate={{x:0, rotate: 720}}
-          transition={{ ease: "easeOut", duration: 2, delay:1 }} src={CSS} alt="" />
+          initial={{opacity:0}} 
+          animate={{opacity:1}}
+          transition={{ ease: "easeOut", duration: 2, delay:4 }} src={CSS} alt="" />
         <m.img 
-          initial={{y:-900}} 
-          animate={{y:0, rotate: 360}}
-          transition={{ ease: "easeOut", duration: 2, delay:1.2 }} src={Sass_logo} alt="" />
+          initial={{opacity:0}} 
+          animate={{opacity:1}}
+          transition={{ ease: "easeOut", duration: 2, delay:4.5 }} src={Sass_logo} alt="" />
         <m.img 
-          initial={{x:-1200}} 
-          animate={{x:0, rotate: 360}}
-          transition={{ ease: "easeOut", duration: 2, delay:1.5}} src={Bootstrap_logo} alt="" />
+          initial={{opacity:0}} 
+          animate={{opacity:1}}
+          transition={{ ease: "easeOut", duration: 2, delay:5}} src={Bootstrap_logo} alt="" />
         <m.img 
-          initial={{y:-900}} 
-          animate={{y:0, rotate: 360}}
-          transition={{ ease: "easeOut", duration: 2, delay:2 }} src={Express_logo} alt="" />
+          initial={{opacity:0}} 
+          animate={{opacity:1}}
+          transition={{ ease: "easeOut", duration: 2, delay:5.5 }} src={Express_logo} alt="" />
         <m.img 
-          initial={{y:900}} 
-          animate={{y:0, rotate: 360}}
-          transition={{ ease: "easeOut", duration: 2, delay:2 }} src={NodeJs} alt="" />
-        <m.img  
-          initial={{y:900}} 
-          animate={{y:0, rotate: 1440}}
-          transition={{ ease: "easeOut", duration: 2, delay:2.5 }}src={Mongodb_logo} alt="" />
+          initial={{opacity:0}} 
+          animate={{opacity:1, rotate: 360}}
+          transition={{ ease: "easeOut", duration: 2, delay:6 }} src={NodeJs} alt="" />
+        <m.img  className={styles.mongodbLogo}
+          initial={{opacity:0}} 
+          animate={{opacity:1}}
+          transition={{ ease: "easeOut", duration: 2, delay: 6.5 }}src={Mongodb_logo} alt="" />
         <m.img 
         initial={{x:1200}} 
         animate={{x:0, rotate: 360}}
-        transition={{ ease: "easeOut", duration: 2, delay:3 }} src={JQuery_logo} alt="" />
-    </div>
+        transition={{ ease: "easeOut", duration: 2, delay:5 }} src={JQuery_logo} alt="" />
+      </div>
+      </div>
     </div>
     </main>
     </>
