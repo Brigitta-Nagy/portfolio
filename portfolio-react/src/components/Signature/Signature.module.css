@@ -20,6 +20,14 @@
 .signatureContainer{
   margin-top: 100px;
 }
+.iconContainer{
+  background: linear-gradient(
+    100deg,
+    rgba(245,245,245,0), 
+    rgba(245,245,245,0.05)
+   
+  );
+}
 .signature{
   position: relative;
   margin-top: 50px;
@@ -31,8 +39,10 @@
 }
 
 .fullstack{
+  display: flex;
+  flex-direction: column;
   font-size: 60px;
-  margin-top:  20px;
+  margin:  20px 0;
   animation: slide-up 4s  ease;
   color: #800000;
   text-shadow: 2px 2px 2px black;

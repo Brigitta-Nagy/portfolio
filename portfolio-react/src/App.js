@@ -2,6 +2,7 @@ import Navbar from './components/Navbar/Navbar';
 import Signature from './components/Signature/Signature';
 import './App.css';
 import Skills from './components/Skills/Skills';
+import AboutMe from './components/AboutMe/AboutMe';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Navbar/>  
          
       <Signature/>
-
+      <AboutMe />
       <Skills />
  
     </div>
