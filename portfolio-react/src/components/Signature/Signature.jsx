@@ -44,7 +44,7 @@ function Signature() {
         <m.img 
           initial={{opacity:0}} 
           animate={{opacity:1}}
-          transition={{ ease: "easeIn", duration: 2, delay:4 }} src={Sass_logo} alt="" />
+          transition={{ ease: "easeOut", duration: 2, delay:4 }} src={Sass_logo} alt="" />
         <m.img 
           initial={{opacity:0}} 
           animate={{opacity:1}}
@@ -52,7 +52,7 @@ function Signature() {
         <m.img 
           initial={{opacity:0}} 
           animate={{opacity:1}}
-          transition={{ ease: "easeIn", duration: 2, delay:5}} src={Bootstrap_logo} alt="" />
+          transition={{ ease: "easeOut", duration: 2, delay:5}} src={Bootstrap_logo} alt="" />
       
         <m.img 
           initial={{opacity:0}} 

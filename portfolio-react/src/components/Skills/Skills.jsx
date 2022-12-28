@@ -22,7 +22,7 @@ function Skills() {
   return (
     <>
       <section className={styles.container}>
-        <h1 id={styles.skills}> Skills</h1>
+        <h1 className={styles.skills} id='skills'> Skills</h1>
         <h2> My aim: - every day learning something new to become a better developer</h2>
         <h3>These skills what I already used to one of my projects</h3>
       

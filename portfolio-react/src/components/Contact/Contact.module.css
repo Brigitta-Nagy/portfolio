@@ -1,0 +1,64 @@
+.contactContainer{
+  height: 100vh;
+  position: relative; 
+  
+}
+
+.contactBackground{
+  width: 20px;
+  height: 100%;
+  background-color: pink;
+  position: absolute; 
+}
+.contactWrapper{
+  padding: 50px;
+  display: flex;
+} 
+ 
+.contactLeft {
+  flex: 1 ;
+}
+.contactRight{
+  flex: 1 ;
+}
+.infoItem{
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+  font-weight: 300;
+  width: 70%;
+}
+.infoItem img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.contactTitle{
+  width: 80%;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.description h3{
+  color: #1e1d1d
+}
+.description{
+  font-size: 24px;
+  font-weight: 400;
+  color:#3d3d3d;
+  line-height: 1.5;
+}
+
+form{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  width: 50%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid rgb(82, 82, 82);
+}
