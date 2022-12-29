@@ -27,20 +27,9 @@ function Contact() {
 
   return (
     <section className={styles.contactContainer} id='contact'>
-        <div className={styles.contactBackground}></div>
+        
         <div className={styles.contactWrapper}>
-          <div className={styles.contactLeft}>
-            <h1 className={styles.contactTitle}>Contact</h1>
-            <div className={styles.info}>
-              <div className={styles.infoItem}>
-                <img src={email} alt="email address" /><h4>brigitta.nagy@bgreat.co.uk</h4>
-              </div>  
-              <div className={styles.infoItem}>
-                <img src={place} alt="" /><h4>Bristol, UK</h4>
-              </div>
-            </div>
-
-          </div>
+          
           <aside className={styles.contactRight}>
             <p className={styles.description}>
               <h3>Hello! Do you have project to complete? Let's discuss about it! </h3>
@@ -54,8 +43,21 @@ function Contact() {
               {sent && 'thank you'}
             </form>
           </aside>
+          <div className={styles.contactLeft}>
+            <h1 className={styles.contactTitle}>Contact</h1>
+            <div className={styles.info}>
+              <div className={styles.infoItem}>
+                <img src={email} alt="email address" /><h4>brigitta.nagy@bgreat.co.uk</h4>
+              </div>  
+              <div className={styles.infoItem}>
+                <img src={place} alt="" /><h4>Bristol, UK</h4>
+              </div>
+            </div>
+
+          </div>
+          <div className={styles.contactBackground}></div>
         </div>
-       
+     
     </section>
   )
 }

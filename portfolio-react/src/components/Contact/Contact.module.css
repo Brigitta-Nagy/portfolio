@@ -1,5 +1,4 @@
 .contactContainer{
- 
   position: relative; 
   
 }
@@ -8,7 +7,8 @@
   width: 20px;
   height: 100%;
   background-color: pink;
-  position: absolute; 
+  position: absolute;
+  right: 0; 
 }
 .contactWrapper{
   padding: 50px;
