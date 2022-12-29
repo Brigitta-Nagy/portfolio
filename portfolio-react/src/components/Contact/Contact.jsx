@@ -3,13 +3,28 @@ import styles from './Contact.module.css'
 import place from '../../static/place.png'
 import email from '../../static/email.png'
 import { useRef } from 'react'
+import emailjs from 'emailjs-com'
+import { useState } from 'react'
 
 function Contact() {
   const formRef = useRef()
-  
+  const [sent, setSent] = useState(false)
+
   const handleSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
+    emailjs.sendForm(
+      'service_kappa',
+      'template_ezv7y5o',
+      formRef.current,
+      '-8-7xPkgTTwyRE8Sq' ) 
+      .then((result) => {
+        console.log(result.text);
+        setSent(true)
+    }, (error) => {
+        console.log(error.text);
+    });
   }
+
   return (
     <section className={styles.contactContainer} id='contact'>
         <div className={styles.contactBackground}></div>
@@ -26,20 +41,21 @@ function Contact() {
             </div>
 
           </div>
-          <div className={styles.contactRight}>
+          <aside className={styles.contactRight}>
             <p className={styles.description}>
               <h3>Hello! Do you have project to complete? Let's discuss about it! </h3>
               Always available for freelancing if the right project finds me. </p>
             <form ref={formRef} onSubmit={handleSubmit}>
               <input type='text' placeholder='Name' name='user_name'/>
-              <input type='text' placeholder='Email' name='user_email'/>
+              <input type='email' placeholder='Email' name='user_email'/>
               <input type='text' placeholder='Subject' name='user_subject'/>
               <textarea rows='5' placeholder='Message' name='user_message'/>
               <button>Submit</button>
+              {sent && 'thank you'}
             </form>
-          </div>
+          </aside>
         </div>
-        <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
+       
     </section>
   )
 }

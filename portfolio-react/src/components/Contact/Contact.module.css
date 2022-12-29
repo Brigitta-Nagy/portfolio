@@ -1,5 +1,5 @@
 .contactContainer{
-  height: 100vh;
+ 
   position: relative; 
   
 }
@@ -13,29 +13,60 @@
 .contactWrapper{
   padding: 50px;
   display: flex;
+  justify-content: center;
+  gap: 50px;
 } 
  
 .contactLeft {
-  flex: 1 ;
+  padding: 20px;
+  min-height: 40vh;
+  
+  box-shadow: rgba(0, 0, 0, 0.5) 5px 3px 8px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid pink;
+  border-bottom: 2px solid pink;
+  transition: .2s ease-in-out;
+
+}
+.contactLeft h1{
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 800; 
+  font-size: 30px;
+  
+}
+.contactLeft:hover, .contactRight:hover{
+  transform: scale(1.02); 
 }
 .contactRight{
-  flex: 1 ;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
   justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.5) 5px 3px 8px;
+  border-radius: 8px;
+  border-right: 2px solid pink;
+  border-bottom: 2px solid pink;
+  transition: .2s ease-in-out;
 }
+
 .infoItem{
   display: flex;
   align-items: center;
   margin: 50px 0;
   font-weight: 300;
-  width: 70%;
+  width: 100%;
+  color: #363636;
 }
 .infoItem img{
-  width: 30px;
+  min-width: 30px;
   height: 30px;
   margin-right: 10px;
+  
 }
 
 .contactTitle{
@@ -86,4 +117,16 @@ button{
   box-shadow: 2px 2px 0 rgb(55, 54, 54);
   min-width: 30%;
   margin: 0 auto 10px;
+  font-weight: 600;
 }
+
+@media screen and (max-width: 900px){
+  .contactWrapper{
+    display: block;
+  }
+  .contactLeft{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+  
