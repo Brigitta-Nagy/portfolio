@@ -2,9 +2,12 @@ import React from 'react'
 import styles from './Contact.module.css'
 import place from '../../static/place.png'
 import email from '../../static/email.png'
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
 import emailjs from 'emailjs-com'
 import { useState } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 
 function Contact() {
   const formRef = useRef()
@@ -24,13 +27,17 @@ function Contact() {
         console.log(error.text);
     });
   }
+  useEffect(()=> {
+    Aos.init()
+  }, [])
 
   return (
     <section className={styles.contactContainer} id='contact'>
         
         <div className={styles.contactWrapper}>
-          
-          <aside className={styles.contactRight}>
+        <div className={styles.contactDiv}>
+          <aside data-aos='zoom-in-up' data-aos-duration='2000' className={styles.contactRight}>
+            
             <p className={styles.description}>
               <h3>Hello! Do you have project to complete? Let's discuss about it! </h3>
               Always available for freelancing if the right project finds me. </p>
@@ -42,8 +49,13 @@ function Contact() {
               <button>Submit</button>
               {sent && 'thank you'}
             </form>
+           
           </aside>
-          <div className={styles.contactLeft}>
+          </div>
+          
+          <div data-aos='zoom-in-up' data-aos-duration='2000' className={styles.contactLeft}>
+          <div className={styles.contactDiv}>
+          
             <h1 className={styles.contactTitle}>Contact</h1>
             <div className={styles.info}>
               <div className={styles.infoItem}>
@@ -53,8 +65,9 @@ function Contact() {
                 <img src={place} alt="" /><h4>Bristol, UK</h4>
               </div>
             </div>
-
+            </div>
           </div>
+          
           <div className={styles.contactBackground}></div>
         </div>
      

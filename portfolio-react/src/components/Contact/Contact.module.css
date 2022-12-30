@@ -16,11 +16,11 @@
   justify-content: center;
   gap: 50px;
 } 
+
  
 .contactLeft {
   padding: 20px;
   min-height: 40vh;
-  
   box-shadow: rgba(0, 0, 0, 0.5) 5px 3px 8px;
   border-radius: 8px;
   display: flex;
@@ -37,21 +37,25 @@
   font-size: 30px;
   
 }
-.contactLeft:hover, .contactRight:hover{
-  transform: scale(1.02); 
+.contactDiv, .contactLeft{
+transition: .2s ease-in-out;
+
 }
+.contactDiv:hover, .contactLeft:hover{
+  transform: scale(1.05)!important; 
+}
+
 .contactRight{
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.5) 5px 3px 8px;
   border-radius: 8px;
   border-right: 2px solid pink;
   border-bottom: 2px solid pink;
-  transition: .2s ease-in-out;
+  
 }
 
 .infoItem{

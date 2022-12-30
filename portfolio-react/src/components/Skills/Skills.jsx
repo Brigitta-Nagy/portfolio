@@ -1,6 +1,7 @@
-import {useRef, useEffect} from 'react'
+import { useEffect} from 'react'
 import styles from './Skills.module.css'
-import { motion as m, useInView} from 'framer-motion'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 import Javascript_logo from '../../static/Javascript01.png'
 import CSS from '../../static/CSS.png'
@@ -19,14 +20,12 @@ import Mongodb_logo from '../../static/Mongodb01.png'
 
 
 function Skills() {
-  const ref = useRef(null)
-  const isInView = useInView(ref, {once: true})
   useEffect(()=> {
-    console.log("in View", isInView)
-  }, [isInView])
+    Aos.init({duration: 2000})
+  }, [])
   return (
     <>
-      <section ref={ref} className={styles.container}>
+      <section className={styles.container}>
         <h1 className={styles.skills} id='skills'> Skills</h1>
         <h2> My aim: - every day learning something new to become a better developer</h2>
         <h3>These skills what I already used to one of my projects</h3>
@@ -34,11 +33,10 @@ function Skills() {
       
         <div className={styles.logo_wrapper}>
           
-              <m.div className={styles.logo_container}
-              initial={{x:-200, opacity: 0}}
-              animate={{ x:50, opacity: 1 }}
-              transition={{duration: 3}}>
-                 <p className={styles.title}> &lt; Frontend /&gt; </p>
+              <div data-aos='fade-right ease-in-out' className={styles.logo_container}
+             
+              >
+                 <p className={styles.title} > &lt; Frontend /&gt; </p>
                     <div className={styles.frontend_logo_container}>
                       <div className={styles.logo}> <img  src={HTML} alt="" />
                         <p>HTML</p>
@@ -62,12 +60,11 @@ function Skills() {
                         <p>Sass</p>
                       </div>
                     </div>
-              </m.div>
+              </div>
 
-              <m.div className={styles.logo_container}
-              initial={{x:200, opacity: 0}}
-              animate={{ x:50, opacity: 1 }}
-              transition={{duration: 3}}>
+              <div data-aos='fade-left' className={styles.logo_container}
+             
+              >
                 <p className={styles.title}> &lt; Backend  /&gt; </p>
                   <div className={styles.backend_logo_container}>
                     <div className={styles.logo}> <img  src={NodeJs} alt="" />
@@ -80,7 +77,7 @@ function Skills() {
                         <p>MongoDb</p>
                       </div>
                   </div>
-              </m.div>
+              </div>
 
 
           
