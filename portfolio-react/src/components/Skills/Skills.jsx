@@ -1,6 +1,6 @@
-import React from 'react'
+import {useRef, useEffect} from 'react'
 import styles from './Skills.module.css'
-import { motion as m} from 'framer-motion'
+import { motion as m, useInView} from 'framer-motion'
 
 import Javascript_logo from '../../static/Javascript01.png'
 import CSS from '../../static/CSS.png'
@@ -19,9 +19,14 @@ import Mongodb_logo from '../../static/Mongodb01.png'
 
 
 function Skills() {
+  const ref = useRef(null)
+  const isInView = useInView(ref, {once: true})
+  useEffect(()=> {
+    console.log("in View", isInView)
+  }, [isInView])
   return (
     <>
-      <section className={styles.container}>
+      <section ref={ref} className={styles.container}>
         <h1 className={styles.skills} id='skills'> Skills</h1>
         <h2> My aim: - every day learning something new to become a better developer</h2>
         <h3>These skills what I already used to one of my projects</h3>
