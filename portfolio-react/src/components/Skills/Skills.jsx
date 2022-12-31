@@ -33,7 +33,7 @@ function Skills() {
       
         <div className={styles.logo_wrapper}>
           
-              <div data-aos='fade-right ease-in-out' className={styles.logo_container}
+              <div data-aos='fade-right' className={styles.logo_container}
              
               >
                  <p className={styles.title} > &lt; Frontend /&gt; </p>
