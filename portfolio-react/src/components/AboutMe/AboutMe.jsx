@@ -1,11 +1,14 @@
 import React from 'react'
 import styles from './AboutMe.module.css'
 import {motion as m} from 'framer-motion'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function AboutMe() {
   return (
-    <m.section  className={styles.aboutSection}>
-    <div className={styles.aboutCard} id='about'>
+    <m.div id='about'>
+    <section  className={styles.aboutSection} data-aos='slide-up'>
+    <div className={styles.aboutCard} >
       <h1>About Me</h1>
         <p className={styles.aboutP}> Im a career switcher, after years caring people I started coding. Always interested in computing, now its time and i think never late to start learning something that is life-time learning process &#128640;.
         <br></br>
@@ -15,7 +18,8 @@ function AboutMe() {
 
         <button>Download CV</button>
         </div>
-    </m.section>
+    </section>
+    </m.div>
     
   )
 }

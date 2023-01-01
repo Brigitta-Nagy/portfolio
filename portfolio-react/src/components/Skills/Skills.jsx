@@ -25,10 +25,10 @@ function Skills() {
   }, [])
   return (
     <>
-      <section className={styles.container}>
-        <h1 className={styles.skills} id='skills'> Skills</h1>
-        <h2> My aim: - every day learning something new to become a better developer</h2>
-        <h3>These skills what I already used to one of my projects</h3>
+      <section className={styles.container} id='skills'>
+        <h1 className={styles.skills} data-aos='flip-left'> Skills</h1>
+        <h2 data-aos='slide-down'> My aim: - every day learning something new to become a better developer</h2>
+        <h3 data-aos='slide-down'>These skills what I already used to one of my projects</h3>
       
       
         <div className={styles.logo_wrapper}>

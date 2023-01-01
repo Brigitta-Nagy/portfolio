@@ -1,11 +1,18 @@
 .aboutSection{
   display: flex;
   justify-content: center;
-  margin-top: 20px;
   
-  
+   
 }
+#about{
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 100px;
+ 
+}
 .aboutCard{
   min-height: 40vh;
   max-width: 80%;
@@ -21,14 +28,12 @@
 .aboutCard:hover{
   transform: scale(1.02);
   
-  
 }
 .aboutCard h1{    
   text-align: center;
   margin-top: 20px;
   font-weight: 800; 
   font-size: 30px;
-  
   
 }
 .aboutP{
