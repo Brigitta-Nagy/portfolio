@@ -8,7 +8,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  max-width: 650px;
+  gap:20px;
+  max-width: 750px;
   height: 650px;
   margin: 50px;
   border-radius: 10px;
@@ -20,7 +21,7 @@
  
 }
 .project_img{
-  background-image: url(../../static/weather-app.png);
+  background-image: url(../../static/weather-app-min.png);
   background-size:cover;
   
   border-top-left-radius: 10px;
@@ -34,8 +35,12 @@
   background-image: url(../../static/ohmyfood-min.png);
  
 }
-.project_img3{
+.project_img4{
   background-image: url(../../static/todo-app-min.png);
+ 
+}
+.project_img3{
+  background-image: url(../../static/meet_app-min.png);
  
 }
 .project_content_wrapper{
