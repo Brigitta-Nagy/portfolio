@@ -21,7 +21,7 @@ import Mongodb_logo from '../../static/Mongodb01.png'
 
 function Skills() {
   useEffect(()=> {
-    Aos.init({duration: 2000})
+    Aos.init({duration: 3000})
   }, [])
   return (
     <>

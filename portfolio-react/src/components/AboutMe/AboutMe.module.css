@@ -1,18 +1,25 @@
+.about{
+    padding: 50px;
+    /* text-align: center;
+    margin:50px;
+    font-weight: 800;
+    font-size: 30px; */
+}
 .aboutSection{
   display: flex;
   justify-content: center;
   
    
 }
-#about{
+/* #about{
 
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding: 100px;
  
-}
+ 
+} */
 .aboutCard{
   min-height: 40vh;
   max-width: 80%;
@@ -23,6 +30,7 @@
   border-right: 2px solid pink;
   border-bottom: 2px solid pink;
   transition: .2s ease-in-out;
+  padding: 50px
 }
 
 .aboutCard:hover{
@@ -53,4 +61,8 @@
   min-width: 30%;
   margin: 0 auto 10px;
   font-weight: 600;
+}
+.button_link{
+  text-decoration: none;
+  color: whitesmoke;
 }

@@ -42,10 +42,10 @@ function Contact() {
               <h3>Hello! Do you have project to complete? Let's discuss about it! </h3>
               Always available for freelancing if the right project finds me. </p>
             <form ref={formRef} onSubmit={handleSubmit}>
-              <input type='text' placeholder='Name' name='user_name'/>
-              <input type='email' placeholder='Email' name='user_email'/>
-              <input type='text' placeholder='Subject' name='user_subject'/>
-              <textarea rows='5' placeholder='Message' name='user_message'/>
+              <input type='text' placeholder='Name' name='user_name' required/>
+              <input type='email' placeholder='Email' name='user_email' required/>
+              <input type='text' placeholder='Subject' name='user_subject' required/>
+              <textarea rows='5' placeholder='Message' name='user_message' required/>
               <button>Submit</button>
               {sent && 'thank you'}
             </form>
@@ -63,6 +63,9 @@ function Contact() {
               </div>  
               <div className={styles.infoItem}>
                 <img src={place} alt="" /><h4>Bristol, UK</h4>
+              </div>
+              <div className={styles.infoItem}>
+                <img src={place} alt="" /><h4>LinkedIn !</h4>
               </div>
             </div>
             </div>
