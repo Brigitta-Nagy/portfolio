@@ -19,61 +19,67 @@ import Mongodb_logo from '../../static/Mongodb01.png'
 function Signature() {
   return (
     <>
-    <main className={styles.mainContainer}> 
-    <div className={styles.signatureContainer}>
-    <div className={styles.signature}>Brigitta Nagy</div>
+    <m.main className={styles.mainContainer}> 
+      <div className={styles.signatureContainer}>
+      <div className={styles.signature}>Brigitta Nagy</div>
 
     <div className={styles.fullstack}>Full stack developer
       <div className={styles.iconContainer}>
         <m.img 
           initial={{opacity:0}} 
           animate={{opacity:1}}
-          transition={{ ease: "easeOut", duration: 1, delay: 2 }}
+          transition={{ ease: "easeOut", duration: 1, delay: 1 }}
+          src={React_logo} alt="React" title="React" />
 
-          src={React_logo} alt="" />
         <m.img  
           initial={{opacity:0}} 
           animate={{opacity:1}}
-          transition={{ ease: "easeOut", duration: 1, delay:2.5 }}
-          src={Javascript_logo} alt="" />
+          transition={{ ease: "easeOut", duration: 1, delay:1.5 }}
+          src={Javascript_logo} alt="JavaScript" title="JavaScript"/>
+
         <m.img 
           initial={{opacity:0}} 
           animate={{opacity:1}}
-          transition={{ ease: "easeOut", duration: 1, delay:3 }} src={HTML} alt="" />
+          transition={{ ease: "easeOut", duration: 1, delay:2 }} src={HTML} alt="HTML" title="HTML"/>
        
         <m.img 
           initial={{opacity:0}} 
           animate={{opacity:1}}
-          transition={{ ease: "easeOut", duration: 1, delay:3.5 }} src={Sass_logo} alt="" />
+          transition={{ ease: "easeOut", duration: 1, delay:2.5 }} src={Sass_logo} alt="Sass" title="Sass"/>
+
         <m.img 
           initial={{opacity:0}} 
           animate={{opacity:1}}
-          transition={{ ease: "easeOut", duration: 1, delay:4}} src={Express_logo} alt="" />
+          transition={{ ease: "easeOut", duration: 1, delay:2.75}} src={Express_logo} alt="EXpress" title="Express"/>
+
         <m.img 
           initial={{opacity:0}} 
           animate={{opacity:1}}
-          transition={{ ease: "easeOut", duration: 1, delay:4.5}} src={Bootstrap_logo} alt="" />
+          transition={{ ease: "easeOut", duration: 1, delay:3}} src={Bootstrap_logo} alt="Bootstrap" title="Bootstrap"/>
       
         <m.img 
           initial={{opacity:0}} 
           animate={{opacity:1, rotate: 360}}
-          transition={{ ease: "easeOut", duration: 1, delay:4.5 }} src={NodeJs} alt="" />
+          transition={{ ease: "easeOut", duration: 1, delay:3.25 }} src={NodeJs} alt="NodeJs" title="NodeJs"/>
+
         <m.img 
           initial={{opacity:0}} 
           animate={{opacity:1}}
-          transition={{ ease: "easeOut", duration: 1, delay:5 }} src={CSS} alt="" />
+          transition={{ ease: "easeOut", duration: 1, delay:3.5 }} src={CSS} alt="CSS" title="CSS"/>
+
         <m.img  
           initial={{opacity:0}} 
           animate={{opacity:1}}
-          transition={{ ease: "easeOut", duration: 1, delay: 5 }}src={Mongodb_logo} alt="" />
+          transition={{ ease: "easeOut", duration: 1, delay: 3.75 }}src={Mongodb_logo} alt="MongoDb" title="MongoDb"/>
+
         <m.img 
         initial={{x:1200}} 
         animate={{x:0, rotate: 360}}
-        transition={{ ease: "easeOut", duration: 1, delay:5.25 }} src={JQuery_logo} alt="" />
+        transition={{ ease: "easeOut", duration: 1, delay:3.75 }} src={JQuery_logo} alt="JQuery" title="JQuery" />
       </div>
       </div>
     </div>
-    </main>
+    </m.main>
     </>
   )
 }
