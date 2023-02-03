@@ -8,6 +8,7 @@ function Navigation() {
   return (
     <>
       <div className={`${styles.navigation} ${styles.headerContainer}`}>
+        
         <m.h1 className={styles.logo}
         drag
         dragConstraints={{left:0, top:0, right: 0, bottom: 0}}

@@ -24,7 +24,11 @@ function HamburgerMenu() {
   return ( 
     <>
     <div className={`${styles.hamburgerMenu} ${styles.headerContainer}`}>
-    <h1 className={styles.logo}>B N</h1>
+    
+    <h1 className={styles.logo}
+    drag
+    dragConstraints={{left:0, top:0, right: 0, bottom: 0}}
+    dragElastic={0.8}>B N</h1>
     {open? closeIcon : hamburgerIcon}
     {open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu}/>}
     </div>
