@@ -18,7 +18,7 @@ function Projects() {
             <div>
               <div className={styles.project_title}>
               Weather application
-              <div className={styles.project_tech}>JS HTML CSS JQUERY</div>
+              <div className={styles.project_tech}>JS &#x2218; HTML &#x2218; CSS &#x2218; JQUERY</div>
             </div>
             <div className={styles.project_description}>
               Front-end application allows you to get weather information in real time in your searched city. Temperature is displayed in Celsius or Farenheit as you wish by clicking the button. 
@@ -31,7 +31,7 @@ function Projects() {
               <a href="https://brigitta-nagy.github.io/weather-app/" target="_blank" rel="noreferrer">
                 <BsGlobe size={25} />
               </a>
-              </div>
+            </div>
           </div>
       </div>
     </div>
@@ -41,10 +41,10 @@ function Projects() {
        
       </div>
         <div className={styles.project_content_wrapper}>
-            <div>
+            
               <div className={styles.project_title}>
               Restaurant page
-              <div className={styles.project_tech}>HTML CSS  SASS</div>
+              <div className={styles.project_tech}>HTML &#x2218; CSS &#x2218;  SASS</div>
             </div>
             <div className={styles.project_description}>
               This webpage was created according to mockup, with lots type of animation. Each card leads to different pages where the menu slide up, heart and button scale up. 
@@ -53,11 +53,11 @@ function Projects() {
               <a href="https://github.com/Brigitta-Nagy/MyFood-project2" target="_blank" rel="noreferrer">
                 <FaGithub size={25} />
               </a> 
-              <a href="" target="_blank" rel="noreferrer">
+              <a href="https://magnificent-pasca-45108c.netlify.app/" target="_blank" rel="noreferrer">
                 <BsGlobe size={25} />
               </a>
-              </div>
-          </div>
+            </div>
+          
       </div>
     </div>
     <div className={styles.project_card} id='projects'>
@@ -68,7 +68,7 @@ function Projects() {
             <div>
               <div className={styles.project_title}>
               Meeting application
-              <div className={styles.project_tech}>REACT HTML CSS BOOTSTRAP</div>
+              <div className={styles.project_tech}>REACT &#128526; BOOTSTRAP 	&#x2218; NODEJS &#x2218; MONGODB</div>
             </div>
             <div className={styles.project_description}>
               Front-end application allows you to get weather information in real time in your searched city. Temperature is displayed in Celsius or Farenheit as you wish by clicking the button. 
@@ -76,7 +76,7 @@ function Projects() {
             </div>
           </div>
           <div className={styles.iconsContainer}>
-              <a href="https://github.com/Brigitta-Nagy/MyFood-project2" target="_blank" rel="noreferrer">
+              <a href="https://github.com/Brigitta-Nagy/Meet-App-Mern" target="_blank" rel="noreferrer">
                 <FaGithub size={25} />
               </a> 
               <a href="" rel="noreferrer" target="_blank">
@@ -93,7 +93,7 @@ function Projects() {
             <div>
               <div className={styles.project_title}>
               To-do app
-              <div className={styles.project_tech}>REACT HTML CSS JQUERY</div>
+              <div className={styles.project_tech}>REACT &#x2218; HTML &#x2218; CSS &#x2218; JQUERY</div>
             </div>
             <div className={styles.project_description}>
               Front-end application allows you to get weather information in real time in your searched city. Temperature is displayed in Celsius or Farenheit as you wish by clicking the button. 

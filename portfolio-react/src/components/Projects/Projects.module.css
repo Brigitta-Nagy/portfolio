@@ -19,6 +19,9 @@
   /* overflow: hidden; */
   background-color: #fcf9f7;
   transition: 0.5s;
+  border-right: 2px solid pink;
+  border-bottom: 2px solid pink;
+  
  
 }
 .project_img{
@@ -53,8 +56,14 @@
   padding: 0 30px 20px;
   text-align: left;
   background-color: #f8f8f8;
+  
+}
+.project_tech{
+  word-spacing: 5px;
+  
 }
 .project_title{
+  font-size: 20px;
   font-weight: 500;
   display: flex;
   justify-content: space-between;
@@ -69,9 +78,12 @@
 
 .iconsContainer a{
   color: black;
-  padding: 5px;
- 
+  padding: 10px;
+
+  
 }
 .iconsContainer{
-  margin-top: 15px;
+  margin-right: 10px;
+  text-align: right;
+
 }
