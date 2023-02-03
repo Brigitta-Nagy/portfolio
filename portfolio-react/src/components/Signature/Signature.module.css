@@ -3,7 +3,7 @@
   width: 100vw;
   height: 80vh;
   background-color: #d2d8d8;
-  border: 10px solid pink;
+  /* border: 10px solid pink; */
   color: whitesmoke;
    
 }
@@ -55,8 +55,9 @@
   font-size: 60px;
   margin:  20px 0;
   animation: slide-up 4s  ease;
-  color: #800000;
-  text-shadow: 2px 2px 2px black;
+  /* color: #800000; */
+  color: white;
+  text-shadow: 2px 2px 2px #800000;
 
   
 }

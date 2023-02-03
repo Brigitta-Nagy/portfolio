@@ -15,7 +15,7 @@ function AboutMe() {
         <br></br>
         i like to be a contribution to others as i like to accept contribution from others. &#9775; &#9774;
         <br></br>
-        I am Hungarian, although I choose to live in different country more than 10 years ago I still prefer sour cream instead of ketchup on my pasta.  </p>
+        I am Hungarian, although I choose to live in different country more than 10 years ago I still prefer sour cream instead of ketchup on my pasta. &#127837;  </p>
 
         <button>
           

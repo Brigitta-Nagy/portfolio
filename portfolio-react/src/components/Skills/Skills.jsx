@@ -82,14 +82,14 @@ function Skills() {
 
           
         </div>
-        <div>
+        {/* <div>
           <h3>These skills I'm on recent project</h3>
           <div className={styles.logo_container}>
             
-            <div className={styles.current_logo_container}>
+            <div className={styles.current_logo_container}>php, sql
             </div>
             </div>
-      </div>
+      </div> */}
         </section>
     </>
   )

@@ -25,10 +25,10 @@ function Projects() {
               The background image  changes depends on the weather 
             </div >
             <div className={styles.iconsContainer}>
-              <a href="https://github.com/Brigitta-Nagy/weather-app" target="_blank" rel="noreferrer">
+              <a href="https://github.com/Brigitta-Nagy/weather-app" target="_blank" rel="noreferrer" title="link to Github page">
                 <FaGithub size={25}  />
               </a> 
-              <a href="https://brigitta-nagy.github.io/weather-app/" target="_blank" rel="noreferrer">
+              <a href="https://brigitta-nagy.github.io/weather-app/" target="_blank" rel="noreferrer" title="link to project page">
                 <BsGlobe size={25} />
               </a>
             </div>
@@ -50,10 +50,10 @@ function Projects() {
               This webpage was created according to mockup, with lots type of animation. Each card leads to different pages where the menu slide up, heart and button scale up. 
             </div>
             <div className={styles.iconsContainer}>
-              <a href="https://github.com/Brigitta-Nagy/MyFood-project2" target="_blank" rel="noreferrer">
+              <a href="https://github.com/Brigitta-Nagy/MyFood-project2" target="_blank" rel="noreferrer" title="link to Github page">
                 <FaGithub size={25} />
               </a> 
-              <a href="https://magnificent-pasca-45108c.netlify.app/" target="_blank" rel="noreferrer">
+              <a href="https://magnificent-pasca-45108c.netlify.app/" target="_blank" rel="noreferrer" title="link to project page">
                 <BsGlobe size={25} />
               </a>
             </div>
@@ -76,10 +76,10 @@ function Projects() {
             </div>
           </div>
           <div className={styles.iconsContainer}>
-              <a href="https://github.com/Brigitta-Nagy/Meet-App-Mern" target="_blank" rel="noreferrer">
+              <a href="https://github.com/Brigitta-Nagy/Meet-App-Mern" target="_blank" rel="noreferrer" title="link to Github page">
                 <FaGithub size={25} />
               </a> 
-              <a href="" rel="noreferrer" target="_blank">
+              <a href="" rel="noreferrer" target="_blank" title="link to project page">
                 <BsGlobe size={25} />
               </a>
               </div>
@@ -101,10 +101,10 @@ function Projects() {
             </div>
           </div>
           <div className={styles.iconsContainer}>
-              <a href="https://github.com/Brigitta-Nagy/todo-list-react" target="_blank" rel="noreferrer">
+              <a href="https://github.com/Brigitta-Nagy/todo-list-react" target="_blank" rel="noreferrer" title="link to Github page">
                 <FaGithub size={25} />
               </a> 
-              <a href="https://resonant-pasca-16ce58.netlify.app/" rel="noreferrer" target="_blank">
+              <a href="https://resonant-pasca-16ce58.netlify.app/" rel="noreferrer" target="_blank" title="link to project page">
                 <BsGlobe size={25} />
               </a>
           </div>
