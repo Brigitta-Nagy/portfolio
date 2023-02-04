@@ -11,8 +11,8 @@ function AboutMe() {
     < div  className={styles.aboutSection} data-aos='slide-up'>
     <div className={styles.aboutCard} >
       <h1 data-aos='flip-left' data-aos-duration='3000'>About Me</h1>
-        <p className={styles.aboutP}> Im a career switcher, I started coding more than a years ago, after years of working with and caring for people.<br/>I have always been interested in IT, I think the internet is the most powerful invention in the world. <br/>
-        Now I'm happy to have got the point in my life where ive started coding  &#9775;. 
+        <p className={styles.aboutP}> Im a career switcher, I started coding a few years ago after a long career in the care sector.<br/>I have always been interested in IT, I think the internet is the most powerful invention in the world. <br/>
+        Now I'm happy to had got the point in my life where I've started coding  &#9775;. 
         Never too late to start learning something that is a lifelong learning process anyway &#128640;.
         <br></br>
          &#9774;

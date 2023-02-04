@@ -59,7 +59,7 @@ function Skills() {
                       <div className={styles.logo}> <img  src={Sass_logo} alt="" />
                         <p>Sass</p>
                       </div>
-                    </div>
+                    </div> 
               </div>
 
               <div data-aos='fade-left' className={styles.logo_container}
