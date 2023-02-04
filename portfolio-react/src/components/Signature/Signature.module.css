@@ -30,11 +30,13 @@
  
 }
 
-.iconContainer{
+.signatureCard{
+  border-radius: 10px;
+  padding: 20px;
   background: linear-gradient(
     100deg,
-    rgba(245,245,245,0), 
-    rgba(245,245,245,0.05)
+    rgba(245,245,245,0.15), 
+    rgba(245,245,245,0.15)
    
   );
 }
@@ -106,7 +108,7 @@
  
   top:0; 
   left:0; 
-  background: linear-gradient(to top left, rgb(221, 212, 212),  rgba(182, 175, 175, 0)) ;
+  background: linear-gradient(to top left, rgb(221, 212, 212, 0.25),  rgba(182, 175, 175, 0.25)) ;
 
 }
 @media screen and (max-width: 600px){

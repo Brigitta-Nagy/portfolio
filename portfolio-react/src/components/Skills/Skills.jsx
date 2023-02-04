@@ -26,16 +26,16 @@ function Skills() {
   return (
     <>
       <section className={styles.container} id='skills'>
-        <h1 className={styles.skills} data-aos='flip-left'> Skills</h1>
-        <h2 data-aos='slide-down'> My aim: - every day learning something new to become a better developer</h2>
-        <h3 data-aos='slide-down'>These skills what I already used to one of my projects</h3>
-      
+        <div className={styles.skillsBackground}></div>
+          <div className={styles.skillsIntro}>
+            <h1 className={styles.skills} data-aos='flip-left'> Skills</h1>
+            <h2 data-aos='slide-down'> My goal is to learn something every day <br/>that will bring me closer to being a better developer.</h2>
+            <h3 data-aos='slide-down'>I've already used these skills for one of my projects and <br/>I'm learning them all the time</h3>
+          </div>
       
         <div className={styles.logo_wrapper}>
           
-              <div data-aos='fade-right' className={styles.logo_container}
-             
-              >
+              <div data-aos='fade-right' className={styles.logo_container}>
                  <p className={styles.title} > &lt; Frontend /&gt; </p>
                     <div className={styles.frontend_logo_container}>
                       <div className={styles.logo}> <img  src={HTML} alt="" />

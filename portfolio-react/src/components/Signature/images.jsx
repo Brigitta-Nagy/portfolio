@@ -6,11 +6,14 @@
 // import images5  from "../../static/cottonbro-studio.jpg"
 
 export const images = [ 
- {url:"julien-brion.jpg"}, 
+{url:"pixabay.jpg"},
+ {url:"julien-brion-min.jpg"}, 
  {url:"junior-teixeira.jpg"},
- {url:"lisa-fotios.jpg"},
+ {url:"lisa-fotios-min.jpg"},
  {url:"markus-spiske.jpg"}, 
- {url:"cottonbro-studio.jpg"}
+ {url:"cottonbro-studio.jpg"},
+ 
+ {url:"danny-meneses-min.jpg"}
 
   // images1, images2, images3, images4, images5
 ];

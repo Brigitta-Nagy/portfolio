@@ -43,7 +43,7 @@ function Signature() {
           style={{ backgroundImage: `url(${images[currImg].url})`}}></div>
          <div className={styles.transparentBackground}></div>  
         <div className={styles.signatureContainer} >
-       
+        <div className={styles.signatureCard}>
            <div className={styles.signature}>Brigitta Nagy</div>
              <div className={styles.fullstack}>Full stack developer
                 <div className={styles.iconContainer}>
@@ -98,6 +98,7 @@ function Signature() {
                     initial={{x:1200}} 
                     animate={{x:0, rotate: 360}}
                     transition={{ ease: "easeOut", duration: 1, delay:3.75 }} src={JQuery_logo} alt="JQuery" title="JQuery" />
+                  </div>
                   </div>
               </div>
               <m.div className={styles.carouselCirles}>
