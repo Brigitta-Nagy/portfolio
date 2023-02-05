@@ -47,7 +47,7 @@ function Projects() {
               <div className={styles.project_tech}>HTML &#x2218; CSS &#x2218;  SASS</div>
             </div>
             <div className={styles.project_description}>
-              This webpage was created according to mockup, with lots type of animation. Each card leads to different pages where the menu slide up, heart and button scale up. 
+              This webpage was created according to mockup, with various type of animation. Each card leads to different pages where the menu slide up, the heart and buttons scale up. 
             </div>
             <div className={styles.iconsContainer}>
               <a href="https://github.com/Brigitta-Nagy/MyFood-project2" target="_blank" rel="noreferrer" title="link to Github page">
@@ -71,8 +71,7 @@ function Projects() {
               <div className={styles.project_tech}>REACT &#128526; BOOTSTRAP 	&#x2218; NODEJS &#x2218; MONGODB</div>
             </div>
             <div className={styles.project_description}>
-              Front-end application allows you to get weather information in real time in your searched city. Temperature is displayed in Celsius or Farenheit as you wish by clicking the button. 
-              The background image  changes depends on the weather 
+              This app allows the user to sign in and see a list of events, they can join or unjoin these events or create an event of their own which other user can then see and join.
             </div>
           </div>
           <div className={styles.iconsContainer}>
