@@ -40,7 +40,7 @@ function Contact() {
           <div className={styles.contactDiv}>
             <aside data-aos='zoom-in-up' data-aos-duration='2000' className={styles.contactRight}>
                 <p className={styles.description}>
-                <h3>Hello! Do you have project to complete? Let's discuss about it! </h3>
+                <h3>Hello! Do you have a project to complete? Let's discuss about it! </h3>
                 Always available for freelancing if the right project finds me. 
                 </p>
               <form ref={formRef} onSubmit={handleSubmit}>

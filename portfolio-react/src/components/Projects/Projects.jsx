@@ -71,7 +71,7 @@ function Projects() {
               <div className={styles.project_tech}>REACT &#128526; BOOTSTRAP 	&#x2218; NODEJS &#x2218; MONGODB</div>
             </div>
             <div className={styles.project_description}>
-              This app allows the user to sign in and see a list of events, they can join or unjoin these events or create an event of their own which other user can then see and join.
+              This app allows the user to sign in and see a list of events, they can join or un-join these events or create an event of their own which other user can then see and join.
             </div>
           </div>
           <div className={styles.iconsContainer}>
@@ -95,8 +95,7 @@ function Projects() {
               <div className={styles.project_tech}>REACT &#x2218; HTML &#x2218; CSS &#x2218; JQUERY</div>
             </div>
             <div className={styles.project_description}>
-              Front-end application allows you to get weather information in real time in your searched city. Temperature is displayed in Celsius or Farenheit as you wish by clicking the button. 
-              The background image  changes depends on the weather 
+              This React to-do App allows the user to add items to the to-do list, they can also edit or delete these items or mark them as complete.
             </div>
           </div>
           <div className={styles.iconsContainer}>
