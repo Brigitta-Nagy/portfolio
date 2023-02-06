@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import ScrollToTop from "react-scroll-to-top"
+// import ScrollToTop from "react-scroll-to-top"
 import {ImArrowUp} from 'react-icons/im'
 
 
@@ -10,7 +10,7 @@ function ToTop() {
 
   useEffect(()=> {
     window.addEventListener("scroll", () => {
-      if(window.scrollY> 1050){
+      if(window.scrollY> 650){
         setToTop(true)
       } else{
         setToTop(false)
