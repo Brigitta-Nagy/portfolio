@@ -5,7 +5,7 @@
   margin-top: 20px;
   color:rgb(67, 67, 67);
 }
-.footerContainer a{
+.footerContainer a, p{
   color:rgb(123, 123, 123);
   text-decoration: none;
   font-size: 12px;
