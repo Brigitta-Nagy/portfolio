@@ -68,13 +68,17 @@
   position: absolute;
   top: 65%;
   z-index: 1;
+  display: flex;
+  
   
 
 }
-.carouselCirles span{
-  background-color: aliceblue;
-  height: 20px;
-  border-radius: 50%;
+.carouselCirles p{
+ 
+  background-color: whitesmoke;
+  height: 25px;
+  width: 20px;
+  border-radius: 35%;
   border: #800000 1px solid;
   margin: 2px;
 }
@@ -116,5 +120,11 @@
     font-size: 50px;
     
   }
-
+  .signatureCard{
+    width: 80%;
+  }
+  .iconContainer{
+    flex-wrap: wrap;
+    
+  }
 }

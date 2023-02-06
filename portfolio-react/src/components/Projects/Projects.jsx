@@ -12,7 +12,7 @@ function Projects() {
     < div className={styles.projects} data-aos='zoom-in'>
       
     <div className={styles.project_card} >
-      <div className={styles.project_img}>
+      <div className={`${styles.project_img} ${styles.project_img1}`}>
       </div>
         <div className={styles.project_content_wrapper}>
             <div>

@@ -104,7 +104,7 @@ function Signature() {
               <m.div className={styles.carouselCirles}>
                 {
                   images.map((images, currImg)=>(
-                    <span  key={currImg} onClick={() => nextSlide(currImg)}>0</span>
+                    <p  key={currImg} onClick={() => nextSlide(currImg)}></p>
                   ))
                 }
               </m.div>

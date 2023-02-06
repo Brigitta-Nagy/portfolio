@@ -49,11 +49,14 @@
   
 }
 
+
 @media only screen and (max-width: 600px) {
   .logo_wrapper {
     flex-direction: column;
     
+    
   }
+
   .container{
     padding: 25px;
     
@@ -72,6 +75,7 @@
     margin: 0; 
   } */
 }
+
 .logo_container {
  
   padding: 50px 50px;
@@ -109,7 +113,7 @@
 .logo{
   padding: 5px;
   width: 50%;
-  box-shadow: rgba(0, 0, 0, 0.03) 10px 0px 10px ;
+  /* box-shadow: rgba(0, 0, 0, 0.03) 10px 0px 10px ; */
   
 }
 .logo img {
