@@ -1,3 +1,5 @@
+
+
 .navbar{
   position: sticky;
   top: 0;
@@ -31,11 +33,11 @@
 }
 .headerContainer{
   background-color: #5d4954;
-  height: auto;
+
   display: flex;
   justify-content:center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
      
 }
 .headerContainer ul {
@@ -83,7 +85,7 @@
     min-height: 100px;
     display: flex;
     align-items: center;
-    width:100%;
+    width:100vw;
   
   }
 
@@ -104,7 +106,7 @@
     line-height: 2;
     position: absolute;
     top: 80px;
-    width: 100%;
+    width: 100vw;
     background-color: #5d4954;
     opacity: 0.9;
      

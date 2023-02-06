@@ -27,6 +27,7 @@
   /* background: linear-gradient(to right bottom, #f8f8f8, rgba(255, 192, 203, 0.05)); */
   background-color: #f8f8f8;
   position: relative;
+  width: 100vw;
  
   
 }
