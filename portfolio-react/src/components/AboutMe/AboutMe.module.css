@@ -1,9 +1,6 @@
 .about{
-    padding: 50px;
-    /* text-align: center;
-    margin:50px;
-    font-weight: 800;
-    font-size: 30px; */
+    padding: 55px;
+   
 }
 
 .aboutSection{
@@ -12,15 +9,7 @@
   
    
 }
-/* #about{
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
- 
- 
-} */
 .aboutCard{
   min-height: 40vh;
   max-width: 80%;

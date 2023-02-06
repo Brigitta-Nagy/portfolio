@@ -6,6 +6,7 @@ import AboutMe from './components/AboutMe/AboutMe';
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer';
 import Projects from './components/Projects/Projects';
+import ToTop from './ToTopButton/ToTop';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <ToTop />
  
     </div>
   );

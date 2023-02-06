@@ -48,7 +48,7 @@ function Contact() {
                 <input type='email' placeholder='Email' name='user_email' required/>
                 <input type='text' placeholder='Subject' name='user_subject' required/>
                 <textarea rows='5' placeholder='Message' name='user_message' required/>
-                <button>Submit</button>
+                <button className={styles.buttonContact}>Submit</button>
                 {sent && 'thank you'}
               </form>
             </aside>
