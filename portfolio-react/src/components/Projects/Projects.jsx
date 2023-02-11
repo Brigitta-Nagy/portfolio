@@ -71,7 +71,7 @@ function Projects() {
               <div className={styles.project_tech}>REACT &#128526; BOOTSTRAP 	&#x2218; NODEJS &#x2218; MONGODB</div>
             </div>
             <div className={styles.project_description}>
-              This app allows the user to sign in and see a list of events, they can join or un-join these events or create an event of their own which other user can then see and join.
+              This app allows the user to sign in and see a list of events, they can join or un-join these events or create an event of their own which other user can then see and join. Using CRUD, authorization, authentication.
             </div>
           </div>
           <div className={styles.iconsContainer}>
