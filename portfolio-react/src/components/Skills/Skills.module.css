@@ -50,11 +50,18 @@
   
 }
 
-
+.logo p{
+  color: rgb(123,123,123);
+  font-size: 18px
+}
 @media only screen and (max-width: 980px) {
   .logo_wrapper {
     flex-direction: column;
     
+  }
+  .logo p{
+    color: rgb(123,123,123);
+    font-size: 12px
   }
   .logo{
     padding: 0px; 

@@ -29,7 +29,7 @@ function Skills() {
         <div className={styles.skillsBackground}></div>
           <div className={styles.skillsIntro}>
             <h1 className={styles.skills} data-aos='flip-left'> Skills</h1>
-            <h2 data-aos='slide-down'> My goal is to learn something every day <br/>that will bring me closer to being a better developer.</h2>
+            <h2 data-aos='slide-down'> My goal is to learn something every day <br/>that will make me a better developer.</h2>
             <h3 data-aos='slide-down'>I've already used these skills for my projects and <br/>I'm learning them all the time</h3>
           </div>
       
