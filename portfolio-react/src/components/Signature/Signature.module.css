@@ -1,14 +1,15 @@
 
 .mainContainer {
   width: 100vw;
-  height: 80vh;
-  background-color: #d2d8d8;
-  /* border: 10px solid pink; */
+  height: 100vh;
+   /* background-color: #d2d8d8; 
+   border: 10px solid pink;  */
   color: whitesmoke;
    
 }
 
 .innerCarousel{
+  z-index:10;
   height: 100%;
   width: 100vw;
   background-position:center;
@@ -64,7 +65,7 @@
   
 }
 
-.carouselCirles{
+.carouselCircles{
   position: absolute;
   top: 65%;
   z-index: 1;
@@ -73,7 +74,7 @@
   
 
 }
-.carouselCirles p{
+.carouselCircles p{
  
   background-color: whitesmoke;
   height: 25px;

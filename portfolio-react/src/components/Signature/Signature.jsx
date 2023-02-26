@@ -40,7 +40,9 @@ function Signature() {
     <m.main className={styles.mainContainer} id="home"> 
  
      <div className={styles.innerCarousel} 
-          style={{ backgroundImage: `url(${images[currImg].url})`}}></div>
+          style={{ backgroundImage: `url(${images[currImg].url})`}}>
+            
+          </div>
          <div className={styles.transparentBackground}></div>  
         <div className={styles.signatureContainer} >
         <div className={styles.signatureCard}>
@@ -101,7 +103,7 @@ function Signature() {
                   </div>
                   </div>
               </div>
-              <m.div className={styles.carouselCirles}>
+              <m.div className={styles.carouselCircles}>
                 {
                   images.map((images, currImg)=>(
                     <p  key={currImg} onClick={() => nextSlide(currImg)}></p>
